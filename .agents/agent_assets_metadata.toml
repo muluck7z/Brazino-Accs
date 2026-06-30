@@ -1,0 +1,8 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "j36RoshDV8zamLpm_8K1S"
+uri = "file://BrazinoVIP_v5.2.zip"
+type = "unspecified"
+title = "BrazinoVIP v5.2 — com sync para o site"
