@@ -1,0 +1,15 @@
+{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ES2022",
+    "outDir": ".vercel/output",
+    "noEmit": false,
+    "paths": {
+      "@workspace/db": ["../lib/db/src/index.ts"],
+      "@workspace/api-zod": ["../lib/api-spec/generated/brazino-accs.zod.ts"]
+    }
+  },
+  "include": ["index.ts", "../artifacts/api-server/src/**/*", "../lib/**/*"]
+}
